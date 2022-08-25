@@ -1,0 +1,1 @@
+# django_ejemplo_clase
