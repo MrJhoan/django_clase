@@ -1,5 +1,5 @@
 from django.db import models
-
+#equisde
 #Modelo para la entidad Autor. 
 class Autor(models.Model):
     nombre = models.CharField(max_length=30)
