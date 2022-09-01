@@ -3,7 +3,7 @@ from django.db import models
 from autores.models import Autor
 from categorias.models import Categoria
 
-#Modelos para la entidad Libros
+#Modelo para la entidad Libros
 class Libro(models.Model):
     autor = models.ForeignKey(Autor, on_delete=models.CASCADE)
     categoria = models.ForeignKey(Categoria, on_delete=models.CASCADE)
@@ -11,3 +11,4 @@ class Libro(models.Model):
     descripcion = models.CharField(max_length=500)
     fecha_pub = models.DateTimeField()
     fecha_creacion = models.DateTimeField(auto_now=True)
+
