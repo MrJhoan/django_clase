@@ -115,3 +115,5 @@ class LibroDetailApiView(APIView):
             {"res":"Object Deleted"},
             status=status.HTTP_200_OK
         )
+
+
